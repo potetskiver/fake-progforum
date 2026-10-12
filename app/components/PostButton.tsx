@@ -17,7 +17,7 @@ export default function PostButton({ className }: { className?: string }) {
           }}
           className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-2 rounded zb-5"
         >
-          New shitpost
+          New post
         </button>
       </div>
       {showPanel && <NewPost />}
