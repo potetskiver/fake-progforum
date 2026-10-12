@@ -10,10 +10,14 @@ export default function PostButton({ className }: { className?: string }) {
     <>
       <div className={className}>
         <button
-          onClick={() => setShowPanel(!showPanel)}
+          onClick={() => {
+            setShowPanel(!showPanel);
+            console.log("Shit posted!");
+
+          }}
           className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-2 rounded zb-5"
         >
-          New post
+          New shitpost
         </button>
       </div>
       {showPanel && <NewPost />}
