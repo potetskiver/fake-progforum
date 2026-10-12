@@ -12,7 +12,7 @@ export default function Home() {
         <Posts className="mt-4" />
       </div>
 
-      <p className="mt-4 text-lg text-gray-600">Your go-to place for programming discussions and resources.</p>
+      <p className="mt-2 text-lg text-yellow-600">Type shittings</p>
     </main>
   );
 }
